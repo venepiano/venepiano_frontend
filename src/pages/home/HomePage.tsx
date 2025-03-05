@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HomePage.module.css';
-import { PianoProduct } from '../../types/PianoProduct';
+import { PianoProduct } from '@/types/PianoProduct';
 
 
 const HomePage: React.FC = () => {
