@@ -1,0 +1,59 @@
+.pianoKeyboard {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 80px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #222;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pianoKey {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  
+  .whiteKey {
+    background-color: #f8f8f8;
+    height: 100%;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 0 0 4px 4px;
+    margin: 0 2px;
+    color: #333;
+    z-index: 1;
+  }
+  
+  .blackKey {
+    background-color: #333;
+    height: 70%;
+    width: 4%;
+    margin: 0 -2%;
+    border-radius: 0 0 4px 4px;
+    color: #fff;
+    z-index: 2;
+  }
+  
+  .keyLabel {
+    font-size: 0.9rem;
+    font-weight: bold;
+    pointer-events: none;
+  }
+  
+  .whiteKey:hover {
+    background-color: #f8e9a1; /* 피아노 키가 눌렸을 때의 색상 */
+    transform: translateY(2px);
+  }
+  
+  .blackKey:hover {
+    background-color: #555;
+    transform: translateY(2px);
+  }

@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #222;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .logo a:hover {
+    color: #f8e9a1; /* 피아노 백건 색깔로 하이라이트 */
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navigation a:hover {
+    color: #f8e9a1;
+  }
+  
+  .userActions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .iconButton {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: transform 0.2s;
+  }
+  
+  .iconButton:hover {
+    transform: scale(1.1);
+  }
