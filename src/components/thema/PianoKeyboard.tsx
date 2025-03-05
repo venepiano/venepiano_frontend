@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './PianoKeyboard.module.css';
-import { PianoKey } from '../../types/PianoKey';
+import { PianoKey } from '@/types/PianoKey';
 
 const PianoKeyboard: React.FC = () => {
     const pianoKeys: PianoKey[] = [
